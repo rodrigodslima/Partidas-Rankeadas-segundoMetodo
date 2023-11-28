@@ -5,6 +5,7 @@ let vitorias = 200
 let derrotas = 99
 
 let ranking = placar(vitorias , derrotas)
+
 function placar(ganhou, perdeu){
 resultado = ganhou - perdeu
 return resultado
